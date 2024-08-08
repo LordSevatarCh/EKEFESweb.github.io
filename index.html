@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="./images/ekefes_CWx_icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="/css/Cstyles.css">
 </head>
 
 <body>
@@ -25,9 +26,6 @@
                 </li>
                 <li class="nav__items">
                     <a href="https://utvam.edu.mx/" class="nav__links">Acerca de nuestra institución</a>
-                </li>
-                <li class="nav__items">
-                    <a href="/contact/contact.html" class="nav__links">Contacto</a>
                 </li>
 
                 <img src="./images/close.svg" class="nav__close">
@@ -189,6 +187,37 @@
                 </section>
 
                 <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section>
+            <h2 class="subtitle">Contactanos</h2>
+        <p class="questions__paragraph"></p>
+        </section>
+
+        <section>
+            <div class="form-content">
+
+                <h2>Enviar Formulario</h2>
+        
+                <form action="https://formsubmit.co/203110027@utvam.edu.mx" method="POST">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name">
+        
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" name="email" id="email">
+        
+                    <label for="subject">Su asunto</label>
+                    <input type="text" name="subject" id="subject">
+        
+                    <label for="coments">Comentarios</label>
+                    <textarea name="coments" id="coments" cols="30" rows="5"></textarea>
+        
+                    <input class="btn" type="submit" value="Enviar">
+                    <input type="hidden" name="_next" value="https://lordsevatarch.github.io/EKEFESweb.github.io/">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+        
             </div>
         </section>
 

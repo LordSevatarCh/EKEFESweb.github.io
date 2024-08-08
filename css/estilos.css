@@ -180,7 +180,7 @@ body {
 }
 
 .knowledge__picture{
-    max-width: 500px;
+    max-width: 470px;
 }
 
 .knowledge__paragraph{
@@ -191,6 +191,7 @@ body {
 .knowledge__img{
     width: 100%;
     display: block;
+    border-radius: 20px;
 }
 
 /* price */
